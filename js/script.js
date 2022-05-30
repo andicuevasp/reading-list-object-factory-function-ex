@@ -3,7 +3,6 @@ const button = document.querySelector(".add-book");
 const tableBody = document.querySelector(".table-body");
 const error = document.querySelector(".error");
 
-// Factory function
 const addBook = function (title, author, pages) {
   const book = {
     title: title,
